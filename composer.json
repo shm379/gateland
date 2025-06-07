@@ -1,0 +1,25 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Nabik\\Gateland\\": "src"
+        },
+        "files": [
+            "utils/class-database.php",
+            "utils/class-install.php",
+            "utils/class-settings.php",
+            "utils/class-sms.php",
+            "utils/class-version.php"
+        ]
+    },
+    "require": {
+        "rakit/validation": "^1.4",
+        "econea/nusoap": "^0.9.15",
+        "illuminate/database": "^8.83",
+        "hekmatinasser/verta": "^2.1"
+    }
+}
